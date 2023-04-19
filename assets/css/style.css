@@ -1,4 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Roboto+Serif:ital,wght@1,200&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
 body {
-    color:aquamarine;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: black;
+    color: whitesmoke;
+    font-family: 'Roboto Serif', serif;
+    font-weight: 800;
+}
+
+h1, span {
+    font-family: 'Dancing Script', cursive; 
+    color: #e6cd7a;
+}
+span {
+    font-size: 200%;
+}
+/* Naviagation links */
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+      
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    border-bottom: 2px solid whitesmoke;
+}
+
+.active {
+    border-bottom: 2px solid whitesmoke;
 }
