@@ -26,13 +26,18 @@ span {
 #menu {
     font-size: 110%;
     letter-spacing: 4px;
-
+    margin-top: 1%;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 2%;
+    
 }
 
 #menu li {
     float: right;
     list-style-type: none;
     margin-right: 30px;
+    display:inline-block;
       
 }
 
@@ -47,4 +52,44 @@ span {
 
 .active {
     border-bottom: 2px solid whitesmoke;
+}
+
+/* Hero image*/
+
+#hero-outer {
+    height: 400px;
+    width: 100%;
+      
+}
+
+#hero-image {
+    background: no-repeat center/cover url("../images/hero-image.jpg");
+    height: 400px;
+    width: 100%;
+    
+   
+    /* animates zoom effect on the loading page*/
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+   animation-fill-mode: forwards;
+}
+
+/* zoom for the hero-image */
+
+@keyframes hero-zoom {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.1);
+    }
+}
+
+.logo {
+    padding-top: 2.6%;
+    padding-left: 7.3%;
+    height: 80%;
+    width: 20%;
+    position: relative;
+    display: block;
 }
