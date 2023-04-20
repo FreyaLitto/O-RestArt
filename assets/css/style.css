@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Roboto+Serif:ital,wght@1,200&display=swap');
-
+/*********************************************************/
+/*                      GENERAL                          */
+/*********************************************************/
 
 * {
     margin: 0;
@@ -11,7 +13,7 @@ body {
     background-color: black;
     color: whitesmoke;
     font-family: 'Roboto Serif', serif;
-    font-weight: 800;
+    font-weight: 300;
 }
 
 h1, span {
@@ -21,23 +23,37 @@ h1, span {
 span {
     font-size: 200%;
 }
+/*********************************************************/
+/*                    HEADER                             */
+/*********************************************************/
+
+header {
+    overflow:hidden;
+    height: 8rem;
+}
+
+  /************************************************************/
+  /*                        Navigation                        */
+  /************************************************************/ 
+
 /* Naviagation links */
 
 #menu {
-    font-size: 110%;
+    font-size: 90%;
     letter-spacing: 4px;
-    margin-top: 1%;
-    position: relative;
-    overflow: hidden;
-    margin-bottom: 2%;
+    margin-top: 0;
+    margin-bottom: 3%;
+    padding-left: 2rem;
+   
     
 }
 
 #menu li {
-    float: right;
+    float: left;
     list-style-type: none;
     margin-right: 30px;
-    display:inline-block;
+    display: block;
+    padding-bottom: 2%;
       
 }
 
@@ -47,28 +63,31 @@ span {
 }
 
 #menu a:hover {
-    border-bottom: 2px solid whitesmoke;
+    border-bottom: 1px solid whitesmoke;
 }
 
 .active {
-    border-bottom: 2px solid whitesmoke;
+    border-bottom: 1px solid whitesmoke;
 }
-
+/*********************************************************/
+/*                 Hero Image and Logo                   */
+/*********************************************************/                         
 /* Hero image*/
 
 #hero-outer {
-    height: 400px;
+    height: 600px;
     width: 100%;
-      
-}
+    overflow: hidden; 
+} 
 
 #hero-image {
-    background: no-repeat center/cover url("../images/hero-image.jpg");
-    height: 400px;
+    background: no-repeat center center fixed url(../images/hero-image.jpg);
+    background-size: cover;
+    height: 100%;
     width: 100%;
     
-   
-    /* animates zoom effect on the loading page*/
+    
+    /* animates zoom effect on the loading page */
     animation-name: hero-zoom;
     animation-duration: 5s;
    animation-fill-mode: forwards;
@@ -83,13 +102,14 @@ span {
     to {
         transform: scale(1.1);
     }
-}
+} 
 
-.logo {
-    padding-top: 2.6%;
-    padding-left: 7.3%;
-    height: 80%;
-    width: 20%;
-    position: relative;
-    display: block;
-}
+   /* Logo*/
+   #logo {
+    float: right;
+    height: 18rem;
+    width: 18rem;
+    padding-top: 5%;
+    padding-right: 7.5%;
+            
+    }
