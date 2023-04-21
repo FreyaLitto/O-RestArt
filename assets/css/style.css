@@ -141,14 +141,6 @@ span {
     position:static;
 
 }
-#golden-flower {
-    height: 5rem;
-    width: 5rem;
-    text-align: center;
-    position:static;
-        
-    }
-    
 
 .golden-element {
     text-align: center;
@@ -225,4 +217,27 @@ span {
 
 .slider-nav a:hover {
     background-color: whitesmoke;
+}
+
+/***************************************************************/
+/*                         FOOTER                              */
+/**************************************************************/
+
+footer {
+    height: 10rem;
+}
+
+.social-networks{
+    text-align: center;
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i{
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color:#e6cd7a;
 }
