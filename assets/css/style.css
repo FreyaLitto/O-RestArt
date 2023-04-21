@@ -20,6 +20,10 @@ h1, span {
     font-family: 'Dancing Script', cursive; 
     color: #e6cd7a;
 }
+
+h1 {
+    font-size: 3rem;
+}
 span {
     font-size: 200%;
 }
@@ -27,9 +31,17 @@ span {
 /*                    HEADER                             */
 /*********************************************************/
 
-header {
-    overflow:hidden;
-    height: 8rem;
+.header {
+    overflow: hidden;
+    height: 4rem;
+    width: 100%;
+    margin-top: auto;
+    position: fixed;
+    z-index:1;
+    background-color: black;
+   
+   
+   
 }
 
   /************************************************************/
@@ -38,14 +50,15 @@ header {
 
 /* Naviagation links */
 
+
 #menu {
     font-size: 90%;
     letter-spacing: 4px;
-    margin-top: 0;
-    margin-bottom: 3%;
+    margin-top: auto;
     padding-left: 2rem;
-   
-    
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+        
 }
 
 #menu li {
@@ -53,7 +66,7 @@ header {
     list-style-type: none;
     margin-right: 30px;
     display: block;
-    padding-bottom: 2%;
+   
       
 }
 
@@ -75,13 +88,14 @@ header {
 /* Hero image*/
 
 #hero-outer {
-    height: 600px;
+    height: 750px;
     width: 100%;
     overflow: hidden; 
+    position: relative;
 } 
 
 #hero-image {
-    background: no-repeat center center fixed url(../images/hero-image.jpg);
+    background: no-repeat center center fixed url(../images/decor/hero-image.jpg);
     background-size: cover;
     height: 100%;
     width: 100%;
@@ -109,7 +123,96 @@ header {
     float: right;
     height: 18rem;
     width: 18rem;
-    padding-top: 5%;
-    padding-right: 7.5%;
+    padding-top: 9rem;
+    padding-right: 7rem;
             
     }
+
+    /******************************************************/
+    /*          SECTION 1. Welcome Page                  */
+    /*****************************************************/
+
+#golden-bird {
+    height: 10rem;
+    width: 10rem;
+    text-align: center;
+    position:static;
+    
+}
+.golden-element {
+    text-align: center;
+    padding: 2rem 2rem;
+}
+
+.welcome {
+    text-align: center;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+}
+
+.beautify {
+    letter-spacing: 10px;
+    font-weight: 50;
+    font-size: 3rem;
+   }
+
+.column {
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 1.2rem;
+}
+
+/*******************************************************/
+/*              SECTION 2 Slide Caurosel               */
+/*******************************************************/
+
+.carousel {
+    margin: 0 auto;
+}
+#slider {
+    overflow: hidden;
+}
+#slider figure{
+    position:relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    animation: 20s slider infinite;
+
+}
+
+#slider figure img {
+    width: 20%;
+    float: left;
+
+    @keyframes slider {
+        0% {
+            left: 0;
+        }
+        20% {
+            left: 0;
+        }
+        25% {
+            left: -100%;
+        }
+        45% {
+            left: -100%;
+        }
+        50% {
+            left: -200%;
+        }
+        70% {
+            left: -200%;
+        }
+        75%{
+            left: -300%;
+        }
+        95%{
+            left: -300%;
+        }
+        100% {
+            left: -400%;
+        }
+
+    }
+}
