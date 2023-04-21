@@ -7,6 +7,8 @@
     margin: 0;
     padding: 0;
     border: none;
+    width:auto;
+    box-sizing: border-box;
 }
 
 body {
@@ -14,7 +16,8 @@ body {
     color: whitesmoke;
     font-family: 'Roboto Serif', serif;
     font-weight: 300;
-}
+    height: 100vh;
+    }
 
 h1, span {
     font-family: 'Dancing Script', cursive; 
@@ -83,7 +86,7 @@ span {
     border-bottom: 1px solid whitesmoke;
 }
 /*********************************************************/
-/*                 Hero Image and Logo                   */
+/*         SECTION 1 Hero Image and Logo                 */
 /*********************************************************/                         
 /* Hero image*/
 
@@ -99,6 +102,7 @@ span {
     background-size: cover;
     height: 100%;
     width: 100%;
+    
     
     
     /* animates zoom effect on the loading page */
@@ -129,7 +133,7 @@ span {
     }
 
     /******************************************************/
-    /*          SECTION 1. Welcome Page                  */
+    /*          SECTION 2. Welcome Page                  */
     /*****************************************************/
 
 #golden-bird {
@@ -163,56 +167,55 @@ span {
 }
 
 /*******************************************************/
-/*              SECTION 2 Slide Caurosel               */
+/*              SECTION 3 Slide Carousel               */
 /*******************************************************/
 
-.carousel {
+.container {
+    padding: 2rem;
+}
+
+.slider-wrapper {
+    position: relative;
+    max-width: 48rem;
     margin: 0 auto;
 }
-#slider {
-    overflow: hidden;
+
+.slider {
+    display:flex;
+    aspect-ratio: 16/9;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    box-shadow: 0 1.5rem 3rem -0.75rem(0 0% 0% 0.25)
+    border-radius: 0.5rem;
 }
-#slider figure{
-    position:relative;
-    width: 500%;
-    margin: 0;
-    left: 0;
-    animation: 20s slider infinite;
 
+.slider img {
+    flex: 1 0 100%;
+    scroll-snap-align: start;
+    object-fit: cover;
 }
 
-#slider figure img {
-    width: 20%;
-    float: left;
+.slider-nav {
+    display: flex;
+    column-gap: 1rem;
+    position: absolute;
+    bottom: 1.5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
 
-    @keyframes slider {
-        0% {
-            left: 0;
-        }
-        20% {
-            left: 0;
-        }
-        25% {
-            left: -100%;
-        }
-        45% {
-            left: -100%;
-        }
-        50% {
-            left: -200%;
-        }
-        70% {
-            left: -200%;
-        }
-        75%{
-            left: -300%;
-        }
-        95%{
-            left: -300%;
-        }
-        100% {
-            left: -400%;
-        }
+.slider-nav a{
+    width: 50px;
+    height: 10px;
+    border: 2px solid whitesmoke;
+    margin: 6px;
+    cursor: pointer;
+    opacity: 0.75;
+    transition: opacity easy 250ms;
+}
 
-    }
+.slider-nav a:hover {
+    background-color: whitesmoke;
 }
