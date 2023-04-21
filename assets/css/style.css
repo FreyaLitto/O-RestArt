@@ -1,8 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Roboto+Serif:ital,wght@1,200&display=swap');
+
 /*********************************************************/
 /*                      GENERAL                          */
 /*********************************************************/
 
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Montserrat:ital@1&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -14,13 +15,13 @@
 body {
     background-color: black;
     color: whitesmoke;
-    font-family: 'Roboto Serif', serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     height: 100vh;
     }
 
 h1, span {
-    font-family: 'Dancing Script', cursive; 
+    font-family: 'Alex Brush', cursive;
     color: #e6cd7a;
 }
 
@@ -42,10 +43,9 @@ span {
     position: fixed;
     z-index:1;
     background-color: black;
-   
-   
-   
 }
+   
+ 
 
   /************************************************************/
   /*                        Navigation                        */
@@ -68,9 +68,7 @@ span {
     float: left;
     list-style-type: none;
     margin-right: 30px;
-    display: block;
-   
-      
+    display: block;     
 }
 
 #menu a {
@@ -125,10 +123,10 @@ span {
    /* Logo*/
    #logo {
     float: right;
-    height: 18rem;
-    width: 18rem;
-    padding-top: 9rem;
-    padding-right: 7rem;
+    height: 22rem;
+    width: 20rem;
+    padding-top: 8rem;
+    padding-right: 5.5rem;
             
     }
 
