@@ -139,8 +139,17 @@ span {
     width: 10rem;
     text-align: center;
     position:static;
-    
+
 }
+#golden-flower {
+    height: 5rem;
+    width: 5rem;
+    text-align: center;
+    position:static;
+        
+    }
+    
+
 .golden-element {
     text-align: center;
     padding: 2rem 2rem;
@@ -169,7 +178,7 @@ span {
 /*******************************************************/
 
 .container {
-    padding: 2rem;
+    padding: 0.5rem;
 }
 
 .slider-wrapper {
