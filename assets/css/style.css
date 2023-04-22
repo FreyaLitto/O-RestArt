@@ -237,7 +237,21 @@ footer {
 
 .social-networks i{
     font-size: 160%;
-    margin: 1%;
-    padding: 5%;
+    margin: 2%;
+    padding: 2%;
     color:#e6cd7a;
+}
+
+.footer-text {
+    text-align: center;
+    padding-bottom: 5rem;
+    margin-bottom: 5rem;
+
+}
+
+.youtube {
+    font-size: 160%;
+    margin: 2%;
+    padding: 5%;
+    color:#e6cd7a; 
 }
