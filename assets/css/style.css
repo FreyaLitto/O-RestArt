@@ -1,8 +1,8 @@
-
+/*********************************************************/
 /*********************************************************/
 /*                      GENERAL                          */
 /*********************************************************/
-
+/*********************************************************/
 @import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Montserrat:ital@1&display=swap');
 * {
     margin: 0;
@@ -20,7 +20,7 @@ body {
     height: 100vh;
     }
 
-h1, span {
+h1, h2, span {
     font-family: 'Alex Brush', cursive;
     color: #e6cd7a;
 }
@@ -28,9 +28,23 @@ h1, span {
 h1 {
     font-size: 3rem;
 }
+
+h2 {
+    font-size: 2.5rem;
+    font-weight: 200;
+    letter-spacing: 10px;
+}
 span {
     font-size: 200%;
 }
+
+a {
+    text-decoration: none;
+}
+/**********************************************************/
+/*                      HOME PAGE                         */
+/*********************************************************/
+
 /*********************************************************/
 /*                    HEADER                             */
 /*********************************************************/
@@ -93,6 +107,7 @@ span {
     width: 100%;
     overflow: hidden; 
     position: relative;
+    clear:both;
 } 
 
 #hero-image {
@@ -121,13 +136,17 @@ span {
 } 
 
    /* Logo*/
+
    #logo {
     float: right;
-    height: 22rem;
-    width: 20rem;
+    height: 18rem;
+    width: 16rem;
+                
+    }
+
+    .header-logo {
     padding-top: 8rem;
-    padding-right: 5.5rem;
-            
+    padding-right: 7rem;
     }
 
     /******************************************************/
@@ -255,3 +274,54 @@ footer {
     padding: 5%;
     color:#e6cd7a; 
 }
+
+/******************************************************************/
+/*                       GALLERY                                  */
+/******************************************************************/
+
+/******************************************************************/
+/*             SECTION 1. Gallery Message                         */
+/*****************************************************************/
+
+#gallery-welcome{
+    clear:both;
+    height: 600px;
+    width: 100%;
+    overflow: hidden; 
+    position: relative; 
+}
+#gallery-message {
+    background: no-repeat center center fixed url(../images/decor/background1.jpg);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.gallery-logo {
+    
+        padding-top: 5rem;
+        padding-right: 5.5rem;
+        
+}
+
+.gallery-note {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    margin-left: 30%;
+    padding-top: 1rem;
+}
+
+.word-anchor {
+    color: whitesmoke;
+    font-family: 'Montserrat', sans-serif
+}
+
+.word-anchor:hover {
+    color:#e6cd7a;
+    font-family: 'Montserrat', sans-serif
+}
+
+/**********************************************************/
+/*            SECTION 2. Gallery                          */
+/**********************************************************/
