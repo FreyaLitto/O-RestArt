@@ -293,7 +293,7 @@ footer {
 
 #gallery-welcome{
     clear:both;
-    height: 600px;
+    height: 750px;
     width: 100%;
     overflow: hidden; 
     position: relative; 
@@ -406,3 +406,33 @@ footer {
   padding: 10px;
   border-radius: 2%;
 }
+
+/**************************************************************************/
+/*                     ABOUT THE AUTHOR                                   */
+/**************************************************************************/
+
+/**************************************************************************/
+/*                SECTION 1 About the Author                              */
+/**************************************************************************/
+
+
+#oresta {
+    height: 300px;
+    width:fit-content;
+    float:right;
+
+}
+.aboutauthor{
+    clear:both;
+    height: 600px;
+    width: 100%;
+    overflow: hidden; 
+    position: relative; 
+}
+.wallpaper {
+    background: no-repeat center center fixed url(../images/decor/background1.jpg);
+    background-size: cover;
+    height: 700%;
+    width: 100%;
+}
+
