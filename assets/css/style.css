@@ -307,8 +307,8 @@ footer {
 
 .gallery-logo {
     
-        padding-top: 5rem;
-        padding-right: 5.5rem;
+    padding-top: 5rem;
+    padding-right: 5.5rem;
         
 }
 
@@ -419,12 +419,15 @@ footer {
 #oresta {
     height: 300px;
     width:fit-content;
-    float:right;
+    text-align: center;
+    margin-top: 3rem;
+    margin-left: 42%;
+
 
 }
 .aboutauthor{
     clear:both;
-    height: 600px;
+    height: 1200px;
     width: 100%;
     overflow: hidden; 
     position: relative; 
@@ -432,7 +435,9 @@ footer {
 .wallpaper {
     background: no-repeat center center fixed url(../images/decor/background1.jpg);
     background-size: cover;
-    height: 700%;
+    height: 1200%;
     width: 100%;
 }
+
+
 
