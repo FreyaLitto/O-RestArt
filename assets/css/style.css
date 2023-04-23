@@ -35,6 +35,8 @@ h2 {
     font-size: 2.5rem;
     font-weight: 200;
     letter-spacing: 10px;
+    text-align: center;
+    padding-top: 5%;
 }
 
 h3 {
@@ -48,6 +50,8 @@ a {
     text-decoration: none;
     
 }
+
+
 /**********************************************************/
 /*                      HOME PAGE                         */
 /*********************************************************/
@@ -103,7 +107,11 @@ a {
 
 .active {
     border-bottom: 1px solid whitesmoke;
+
 }
+
+
+
 /*********************************************************/
 /*         SECTION 1 Hero Image and Logo                 */
 /*********************************************************/                         
@@ -160,6 +168,7 @@ a {
     /******************************************************/
     /*          SECTION 2. Welcome Page                  */
     /*****************************************************/
+/********Golden Bird Logo*****/
 
 #golden-bird {
     height: 10rem;
@@ -173,7 +182,7 @@ a {
     text-align: center;
     padding: 2rem 2rem;
 }
-
+/*******/
 .welcome {
     text-align: center;
     margin-bottom: 2rem;
@@ -251,7 +260,7 @@ a {
 /**************************************************************/
 
 footer {
-    height: 10rem;
+    height: 5rem;
 }
 
 .social-networks{
@@ -288,41 +297,47 @@ footer {
 /******************************************************************/
 
 /******************************************************************/
-/*             SECTION 1. Gallery Message                         */
-/*****************************************************************/
+/*   GOLDEN WALLPAPER for Gallery, About the Author and Contact   */
+/******************************************************************/
 
-#gallery-welcome{
+
+.wallpaper-wrap {
     clear:both;
-    height: 750px;
+    height: 100%;
     width: 100%;
     overflow: hidden; 
     position: relative; 
+    padding-bottom: 2%;
 }
-#gallery-message {
+.wallpaper {
     background: no-repeat center center fixed url(../images/decor/background1.jpg);
     background-size: cover;
     height: 100%;
     width: 100%;
+    padding-bottom: 2%;
 }
 
-.gallery-logo {
+
+/******************************************************************/
+/*             SECTION 1. Gallery Message                         */
+/*****************************************************************/
+
+.gallery-logo-position {
     
-    padding-top: 5rem;
-    padding-right: 5.5rem;
-        
+    padding-top: 4%;
+    padding-right: 2%
+
 }
 
-
-
-.gallery-note h2,p{
+.note h2,p{
     text-align: center;
-    margin-top: 1rem;
-    margin-left: 30%;
-    margin-right: 30%;
-    padding-top: 1rem;
+    margin-top: 0.5rem;
+    margin-left: 20%;
+    margin-right: 20%;
+    
 }
 
-.gallery-note p{
+.note p{
     font-size: 1.2rem;
 }
 
@@ -411,33 +426,58 @@ footer {
 /*                     ABOUT THE AUTHOR                                   */
 /**************************************************************************/
 
-/**************************************************************************/
-/*                SECTION 1 About the Author                              */
-/**************************************************************************/
-
-
 #oresta {
     height: 300px;
     width:fit-content;
     text-align: center;
-    margin-top: 3rem;
     margin-left: 42%;
 
-
-}
-.aboutauthor{
-    clear:both;
-    height: 1200px;
-    width: 100%;
-    overflow: hidden; 
-    position: relative; 
-}
-.wallpaper {
-    background: no-repeat center center fixed url(../images/decor/background1.jpg);
-    background-size: cover;
-    height: 1200%;
-    width: 100%;
 }
 
+/*********************************************************************/
+/*                     CONTACT                                      */
+/********************************************************************/
 
+.form-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+form {
+    width: 90%;
+    max-width: 600px;
+}
+
+input, textarea {
+    width: 200%;
+    padding: 10px;
+    outline: 0;
+    border: 1px solid whitesmoke;
+    color: whitesmoke;
+    background: transparent;
+    font-size: 1rem;
+    position: relative;
+
+}
+
+button {
+    padding: 10px;
+    color: whitesmoke;
+    outline: none;
+    background: transparent;
+    border: 1px solid whitesmoke;
+    width: 200%;
+    cursor: pointer;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.row .input-group {
+    flex-basis: 48%;
+
+}
