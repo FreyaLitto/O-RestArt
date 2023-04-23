@@ -4,12 +4,14 @@
 /*********************************************************/
 /*********************************************************/
 @import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Montserrat:ital@1&display=swap');
+
+*, html {padding:0; margin:0;}
 * {
     margin: 0;
     padding: 0;
     border: none;
     width:auto;
-    box-sizing: border-box;
+   box-sizing: border-box;
 }
 
 body {
@@ -34,12 +36,17 @@ h2 {
     font-weight: 200;
     letter-spacing: 10px;
 }
+
+h3 {
+    font-weight: 100;
+}
 span {
     font-size: 200%;
 }
 
 a {
     text-decoration: none;
+    
 }
 /**********************************************************/
 /*                      HOME PAGE                         */
@@ -305,13 +312,18 @@ footer {
         
 }
 
-.gallery-note {
+
+
+.gallery-note h2,p{
     text-align: center;
-    font-size: 1.2rem;
     margin-top: 1rem;
     margin-left: 30%;
     margin-right: 30%;
     padding-top: 1rem;
+}
+
+.gallery-note p{
+    font-size: 1.2rem;
 }
 
 .word-anchor {
@@ -327,3 +339,70 @@ footer {
 /**********************************************************/
 /*            SECTION 2. Gallery                          */
 /**********************************************************/
+
+.card-flex {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.cards{
+    height: 600px;
+    width: 400px;
+    box-sizing: border-box;
+    background-color: black;
+    border: 0.3px solid whitesmoke;
+    border-radius: 2%;
+    text-align: center;
+    margin: 20px auto;
+   
+    
+}
+
+.card-img {
+    height:300px;
+    text-align: center;
+    
+}
+
+.card-img img {
+    height: 200px;
+    width: auto;
+    margin-top: 50px;
+    }
+
+.card-header {
+    height: 50px;
+   
+    
+}
+
+.card-body {
+    height: 150px;
+   
+
+}
+.description{
+    font-size: 0.8rem;
+}
+
+/******************************************/
+/*          Gallery Button                */
+/******************************************/
+
+ .gallery-btn {
+     background-color: black;
+    color: whitesmoke;
+   border: 1px solid #e6cd7a;
+   padding: 10px;
+   border-radius: 2%;
+}
+  
+.gallery-btn:hover {
+  background-color:whitesmoke;
+  color:black;
+  border: 1px solid #e6cd7a;
+  padding: 10px;
+  border-radius: 2%;
+}
