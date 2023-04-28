@@ -5,13 +5,14 @@
 /*********************************************************/
 @import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Montserrat:ital@1&display=swap');
 
-*, html {padding:0; margin:0;}
+
 * {
     margin: 0;
     padding: 0;
     border: none;
     width:auto;
    box-sizing: border-box;
+   
 }
 
 body {
@@ -48,7 +49,10 @@ span {
 
 a {
     text-decoration: none;
-    
+    color: whitesmoke;    
+}
+a:hover {
+    color:black;
 }
 
 
@@ -68,6 +72,9 @@ a {
     position: fixed;
     z-index:1;
     background-color: black;
+    display:flex;
+    justify-content: space-between;
+    padding: 30px, 10%;
 }
    
  
@@ -96,12 +103,13 @@ a {
     display: block;     
 }
 
-#menu a {
+#menu li a {
     text-decoration: none;
     color: inherit;
+    transition: all 0.3s ease 0s;
 }
 
-#menu a:hover {
+#menu li a:hover {
     border-bottom: 1px solid whitesmoke;
 }
 
@@ -109,7 +117,6 @@ a {
     border-bottom: 1px solid whitesmoke;
 
 }
-
 
 
 /*********************************************************/
@@ -355,15 +362,20 @@ footer {
 /*            SECTION 2. Gallery                          */
 /**********************************************************/
 
-.card-flex {
+
+
+.card-flex{
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
+    grid-gap: 10px;
     align-items: center;
+    flex-wrap: wrap;
+  
+   
 }
 
-.cards{
-    height: 600px;
+.gallery-cards{
+    height: 400px;
     width: 400px;
     box-sizing: border-box;
     background-color: black;
@@ -371,8 +383,7 @@ footer {
     border-radius: 2%;
     text-align: center;
     margin: 20px auto;
-   
-    
+    position:relative;
 }
 
 .card-img {
@@ -400,26 +411,6 @@ footer {
 }
 .description{
     font-size: 0.8rem;
-}
-
-/******************************************/
-/*          Gallery Button                */
-/******************************************/
-
- .gallery-btn {
-     background-color: black;
-    color: whitesmoke;
-   border: 1px solid #e6cd7a;
-   padding: 10px;
-   border-radius: 2%;
-}
-  
-.gallery-btn:hover {
-  background-color:whitesmoke;
-  color:black;
-  border: 1px solid #e6cd7a;
-  padding: 10px;
-  border-radius: 2%;
 }
 
 /**************************************************************************/
@@ -450,7 +441,7 @@ form {
 }
 
 input, textarea {
-    width: 200%;
+    width: 180%;
     padding: 10px;
     outline: 0;
     border: 1px solid whitesmoke;
@@ -467,17 +458,25 @@ button {
     outline: none;
     background: transparent;
     border: 1px solid whitesmoke;
-    width: 200%;
+    width: 20%;
     cursor: pointer;
+    text-align: center;
+    margin-left: 80%;
+    border-radius: 12%;
 }
 
-.row {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+button:hover {
+    background: whitesmoke;
+    color:black
 }
 
-.row .input-group {
-    flex-basis: 48%;
+/****************************************************/
+/*               THANK YOU PAGE                     */
+/****************************************************/
 
+#golden-flower{
+    height: 23vh;
+    width:fit-content;
+    text-align: center;
+    margin-left: 44%;
 }

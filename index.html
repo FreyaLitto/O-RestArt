@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="O-RestArt art gallery with unique oil and acrylic paintings created by an artist Oresta Kinash">
     <meta name="keywords" content="O-RestArt, art, artist, gallery, art gallery, paintings, oil, acrylic, oil paintings, acrylic paintings, nature, nature in art, flowers, flowers in art, abstract, abstract paintings, industrial, industrial paintings, city, office, unique, collection, collectios, art collection, art collections, beauty">
-    <link rel="icon" type="image/png" href="assets/images/decor/Logo Bird.png"/>
+    <link rel="icon" type="image/png" href="assets/images/decor/logo-bird.png"/>
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
 
@@ -14,9 +14,37 @@
 
 </head>
 <body>
+
+
     <header class="header"> 
       <!-------------------------Nav Bar----------------------------->  
+      <label class="hamburger-menu">
+        <input type="hamburger-checkbox">
+      </label>
+      <aside class="sidebar">
+        <nav class="hamburger-nav">
+            <ul id="hamburger">
+                
+                <li>
+                    <a href="index.html" ><span>H</span>ome</a>
+                    
+                </li>
+                <li>
+                    <a href="gallery.html"><span>G</span>allery</a>
+        
+                </li>
+                <li>
+                    <a href="aboutauthor.html"><span>A</span>bout The Artist</a>
+                </li>
+                <li>
+                    <a href="contact.html"><span>C</span>ontact</a>
+                </li>
+            </ul> 
+        </nav>
+      </aside>
+
         <nav class="main-nav">
+           
             
             <ul id="menu">
                 
@@ -36,12 +64,14 @@
                 </li>
             </ul>
         </nav>
+       
     <!--------------END OF Navbar-------------------------------->
     </header>
+    <main>
     <section id="hero-outer">
         <div id="hero-image">
             <div class="header-logo">
-            <img id="logo" src="assets/images/decor/Logo1.jpg" alt="O-RestArt Logo">
+            <img id="logo" src="assets/images/decor/logo1.jpg" alt="O-RestArt Logo">
             </div>
         </div>
 
@@ -49,7 +79,7 @@
     <section>
         <div>
         <div class="welcome">
-            <div class="golden-element"><img id="golden-bird" src="assets/images/decor/Logo Bird.png" alt="Logo Bird"></div>
+            <div class="golden-element"><img id="golden-bird" src="assets/images/decor/logo-bird.png" alt="Logo Bird"></div>
     <h1 class="beautify">Welcome to O-RestArt Web Site! </h1>
         </div>
         <div class="welcome">
@@ -73,11 +103,11 @@
 
         <div class="slider-wrapper">
             <div class="slider">
-                <img id="slide1" src="assets/images/gallery/Ship Depart.jpg" alt="img1">
-                <img id="slide2" src="assets/images/gallery/Night City.jpg" alt="img2">
-                <img id="slide3" src="assets/images/gallery/Mistique Light.jpg" alt="img3">
-                <img id="slide4" src="assets/images/gallery/Energy.jpg" alt="img4">
-                <img id="slide5" src="assets/images/gallery/Stop War.jpg" alt="img5">
+                <img id="slide1" src="assets/images/gallery/ship-depart.jpg" alt="Ship Depart">
+                <img id="slide2" src="assets/images/gallery/night-city.jpg" alt="Night City">
+                <img id="slide3" src="assets/images/gallery/mistique-light.jpg" alt="Mistique Light">
+                <img id="slide4" src="assets/images/gallery/energy.jpg" alt="Energy">
+                <img id="slide5" src="assets/images/gallery/stop-war.jpg" alt="Stop War">
             </div>
             <div class="slider-nav">
                 <a href="#slide1"></a>
@@ -90,6 +120,7 @@
         </div>
     
     </section>
+    </main>
     <!-------------------------FOOTER--------------------------------------->
     <footer>
         <ul class="social-networks">
