@@ -70,14 +70,13 @@ a:hover {
     width: 100%;
     margin-top: auto;
     position: fixed;
-    z-index:1;
+    z-index:999;
     background-color: black;
     display:flex;
     justify-content: space-between;
     padding: 30px, 10%;
 }
    
- 
 
   /************************************************************/
   /*                        Navigation                        */
@@ -85,6 +84,13 @@ a:hover {
 
 /* Naviagation links */
 
+nav {
+    position:absolute;
+    text-align: left;
+    display: none;
+   /* transform: scale(1,0);*/
+    
+   }
 
 #menu {
     font-size: 90%;
@@ -93,20 +99,28 @@ a:hover {
     padding-left: 2rem;
     padding-top: 1rem;
     padding-bottom: 1rem;
+    position: fixed;
+    margin-top: 5%;
+    background-color: black;
         
 }
 
 #menu li {
-    float: left;
+    /*float: left;*/
+    margin-top: 15%;
+    z-index: 99;
     list-style-type: none;
     margin-right: 30px;
-    display: block;     
+    display: block; 
+    
+     
 }
 
 #menu li a {
     text-decoration: none;
     color: inherit;
-    transition: all 0.3s ease 0s;
+   
+   
 }
 
 #menu li a:hover {
@@ -118,6 +132,68 @@ a:hover {
 
 }
 
+/******************************************************************/
+/*                     HAMBURGER MENU                             */
+/*****************************************************************/
+.nav-toggle:checked ~ nav {
+   /* transform: scale(1,1);*/
+   display:block;
+}
+
+.nav-toggle {
+    display:none;
+}
+
+.nav-toggle-label {
+ position:absolute;
+ top:0;
+ left:0;
+ margin-left: 1em;
+ height: 100%;
+ display: flex;
+ align-items: center;
+}
+
+.nav-toggle-label span,
+.nav-toggle-label span::before,
+.nav-toggle-label span::after {
+    display:block;
+    background: whitesmoke;
+    height: 2px;
+    width: 2em;
+    border-radius: 2px;
+    position: relative;
+}
+
+.nav-toggle-label span::before,
+.nav-toggle-label span::after {
+    content:"";
+    position:absolute;
+}
+
+.nav-toggle-label span::before {
+    bottom: 7px;
+}
+
+.nav-toggle-label span::after {
+    top: 7px;
+}
+
+
+@media screen and (min-width: 800px) {
+    .nav-toggle-label {
+        display: none;
+    }
+
+    header {
+        display: grid;
+        grid-template-columns: auto minmax(600px, 1fr);
+        
+    }
+    #menu {
+        grid-column: 2/span 1;
+    }
+} 
 
 /*********************************************************/
 /*         SECTION 1 Hero Image and Logo                 */
