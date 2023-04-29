@@ -180,14 +180,14 @@ The following issues were raised during my mid project meeting with my mentor:
   
    5. This project still might be corrected regarding better positioning, centralising, alighning elements etc. However I am planning to work on it and add new features  with time, when I`ll be gaining more knowlege and practice how to effectivly work with programming languages, tools, resources.
   
-  #Solved Bugs
+  ## Solved Bugs
   
   1. There were a few unpared tags, like <div> wchich I had to delete.
    2. In the footer there was additional empty <i> tag.
    3. Padding was provided in two different mesurements - pixels and %. That was corrected.
    
   
-  ##Testing
+  ## Testing
   
  - Testing Navbar for it`s full responsive navigation, is it linked with other pages, how hovering works, also media queries on biller screens and small one. 
   
@@ -200,6 +200,11 @@ The following issues were raised during my mid project meeting with my mentor:
   - Submission form with paying attention if formats (for ex. emails) are correctly represented, how submission button redirects the user to Thank You page.
   
  - I tested the web-page with Lighthouse  within the Chrome Developer Tools fore performance, accessibility, best practices and SEO of the website.
+ 
+ 
+ ![test1](ReadMeImg/test1PNG)
+ 
+ 
   
   
   
