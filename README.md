@@ -59,7 +59,7 @@
   
   On every single page there is a responsive Footer, represented with icons. Icons are linked to social media where they redirect user when clicking on them.
   
-  ![footer](Read/Me/Imgfooter.PNG)
+  ![footer](ReadMeImg/footer.PNG)
   
   
   **_Gallery_**
