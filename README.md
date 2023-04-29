@@ -64,9 +64,19 @@
   
   **_Gallery_**
   
-  Gallery also contains additional links to Contact page and Facebook embeded in text. When you hover words "message" and "Facebook", you`ll be able to use these shortcats for contacting with the artist. 
+  **1. Additional Shortcuts**
+  
+  Gallery also contains additional links to Contact page and Facebook embeded in text. When you hover words "message" and "Facebook", you`ll be able to use these shortcuts for contacting with the artist. 
   
   ![Welcome note](welcome_note.PNG)
+  
+  **2. Responsive Gallery**
+  
+  Here you can see the gallery with paintings and descriptions of every item.  Pictures are projected in rows and columns.  On smaller devices the quantity of colums decreases from three on big displays, to two on medium and one for mobile phones. 
+  
+  
+  
+  
   
   
   
