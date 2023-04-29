@@ -87,6 +87,21 @@
   
   ![submit](submit.PNG) ![thanks](thanks.PNG)
   
+  ##Fututure Implementations
+ 
+  There are few things which need to be implemented on this page: 
+  
+ - Gallery section - Creating modal windows using Java Script, which allow to select any picture from the gallery and zoom it; 
+  
+ - Create cards with prices and redirecting to the sales transactions, such as PayPal, credit cards (using Java Script);
+  
+ - Creating smooth and nice Navigation menu with Java Script;
+  
+ - Creating Submittion and automatic redirection for the owner side.
+  
+  
+  
+  
   
   
   
