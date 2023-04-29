@@ -8,10 +8,14 @@
   ## The Structure
   
  This Web page contains few main parts: 
-  - Home page
+  - Home Page
   - Gallery
   - About The Artist
   - Contact
+  
+  You can defy the Home Page, which is the main and contains cover photo of one of the paintings, the other (Gallery, About The Artist and Contact) are created on the same black and golden background, which provides consistancy and refers to the same styling. 
+  There are only three main colors used in this design - Black, Whitesmoky and Golden (#e6cd7a), which provide contrast and visibility. Together with logo and golden elements, provide nice background to colourful pictures in the gallery. 
+  
   
  
   
