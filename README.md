@@ -43,6 +43,10 @@
   
   - _Mobile Phones, small devices_
   
+  ![vertical nav](vertical.PNG)
+  
+  
+  
   
   
   
