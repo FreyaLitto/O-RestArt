@@ -23,7 +23,7 @@
   
  ## Features
   
-  ```Home Page```
+  **_Home Page_**
   
   **1. Favicon on the top of the Web Browser** 
   
