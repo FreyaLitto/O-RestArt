@@ -23,7 +23,7 @@
   
  ## Features
   
-  ###Home Page
+  ```Home Page
   
   **1. Favicon on the top of the Web Browser** 
   
@@ -59,7 +59,7 @@
   
   On every single page there is a responsive Footer, represented with icons. Icons are linked to social media where they redirect user when clicking on them.
   
-  ![footer](footer.png)
+  ![footer](footer.PNG)
   
   
   
