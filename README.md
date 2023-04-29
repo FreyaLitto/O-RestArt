@@ -202,7 +202,7 @@ The following issues were raised during my mid project meeting with my mentor:
  - I tested the web-page with Lighthouse  within the Chrome Developer Tools fore performance, accessibility, best practices and SEO of the website.
  
  
- ![test1](ReadMeImg/test1PNG)
+ ![test1](ReadMeImg/test1.PNG)
  
  
   
