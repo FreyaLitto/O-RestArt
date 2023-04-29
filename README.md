@@ -23,7 +23,7 @@
   
  ## Features
   
-  - _1. Favicon on the top of the Web Browser._ 
+  **1. Favicon on the top of the Web Browser** 
   
  Small but nice touch which shows the object (a goden bird in the circle), visible when we open the web-page. Identifies the open tab at the top of web-brouser and makes this page recognisable. 
   
@@ -33,11 +33,13 @@
   
   
   
-  - _2. Responsive Navbar_
+  **2. Responsive Navbar**
   
   Navbar is situated on the top of the web-page. It allows to navigate through the pages, shows the current page and allows easy navigation. It also contains media query, for smaller devices such as mobile phones, the user notice clickable "hamburger menu", which reviels a list.
   
-  ** Laptops, Monitors, larger devices**
+  - _Laptops, Monitors, larger devices_
+  
+  
   
   
   
