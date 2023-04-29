@@ -15,7 +15,7 @@ The main goal of it is to present art in classical, sophisticated way, mainly to
   - Contact
   
   You can defy the Home Page, which is the main and contains cover photo of one of the paintings, the other (Gallery, About The Artist and Contact) are created on the same black and golden background, which provides consistancy and refers to the same styling. 
-  There are only three main colors used in this design - Black, Whitesmoky and Golden (#e6cd7a) ![colours](ReadMeImg/colours.PNG), which provide contrast and visibility. Together with logo and golden elements, compose nice background to colourful pictures in the gallery. 
+  There are only three main colors used in this design - Black, Whitesmoky and Golden (#e6cd7a) ![colours](read-me-img/colours.PNG), which provide contrast and visibility. Together with logo and golden elements, compose nice background to colourful pictures in the gallery. 
   There are also two main fonts used: 
   - Alex and Brush
   - Monserrat
@@ -30,7 +30,7 @@ The main goal of it is to present art in classical, sophisticated way, mainly to
   
  Small but nice touch which shows the object (a goden bird in the circle), visible when we open the web-page. Identifies the open tab at the top of web-brouser and makes this page recognisable. 
   
- ![favicon](ReadMeImg/favicon.PNG)
+ ![favicon](read-me-img/favicon.PNG)
   
   ![golden-bird](assets/images/decor/logo-bird.png) 
   
@@ -42,25 +42,25 @@ The main goal of it is to present art in classical, sophisticated way, mainly to
   
   - _Laptops, Monitors, larger devices_
   
-  ![Horizontal Nav](ReadMeImg/horizontal.PNG)
+  ![Horizontal Nav](read-me-img/horizontal.PNG)
   
   - _Mobile Phones, small devices_
   
-  ![vertical nav](ReadMeImg/vertical.PNG)
+  ![vertical nav](read-me-img/vertical.PNG)
   
   
   **3. Home Page Carousel**
   
   Home paige contains picrure carousel, which allows the user to switch and list pictures using navigation bars or sliding them horizontally. 
   
-  ![ship](ReadMeImg/ships.PNG)       ![flowers](ReadMeImg/flowers.PNG)
+  ![ship](read-me-img/ships.PNG)       ![flowers](read-me-img/flowers.PNG)
   
   
   **4. Responsive Footer.**
   
   On every single page there is a responsive Footer, represented with icons. Icons are linked to social media where they redirect user when clicking on them.
   
-  ![footer](ReadMeImg/footer.PNG)
+  ![footer](read-me-img/footer.PNG)
   
   
   **_Gallery_**
@@ -69,13 +69,13 @@ The main goal of it is to present art in classical, sophisticated way, mainly to
   
   Gallery also contains additional links to Contact page and Facebook embeded in text. When you hover words "message" and "Facebook", you`ll be able to use these shortcuts for contacting with the artist. 
   
-  ![Welcome note](ReadMeImg/welcome_note.PNG)
+  ![Welcome note](read-me-img/welcome_note.PNG)
   
   **2. Responsive Gallery**
   
   Here you can see the gallery with paintings and descriptions of every item.  Pictures are projected in rows and columns.  On smaller devices the quantity of colums decreases from three on big displays, to two on medium and one for mobile phones.
   
-  ![three](ReadMeImg/three.PNG)
+  ![three](read-me-img/three.PNG)
   
   **_About the Artist_**
   
@@ -86,7 +86,7 @@ The main goal of it is to present art in classical, sophisticated way, mainly to
   It`s the last part of web-site with a contact form with inputs such as "Name and Surname", "E-mail Address", text field and a submittion button.  After submitting this form and sending over a message, the subscriber is redirected to Thank You page.
   
   
-  ![submit](ReadMeImg/submit.PNG) ![thanks](ReadMeImg/thanks.PNG)
+  ![submit](read-me-img/submit.PNG) ![thanks](read-me-img/thanks.PNG)
   
   ##Fututure Implementations
  
@@ -202,7 +202,7 @@ The following issues were raised during my mid project meeting with my mentor:
  - I tested the web-page with Lighthouse  within the Chrome Developer Tools fore performance, accessibility, best practices and SEO of the website.
  
  
- ![test1](ReadMeImg/test1.PNG)
+ ![test1](read-me-img/test1.PNG)
  
  
  # Credits
