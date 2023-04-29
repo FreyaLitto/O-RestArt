@@ -109,6 +109,21 @@ I have been mindful during coding to ensure that the website is intuitive and ea
 - Ensuring that there is a sufficient colour contrast throughout the site.
 - Providing shortcuts and additional detail, so the user will be easily navigated.
   
+  #Technologies Used
+  
+  ##Languages Used
+  
+  HTML and CSS were used to create this website.
+  
+  ## Frameworks, Libraries & Programs Used
+  
+  - **Git** - For version control.
+  - **Github** - To save and store the files for the website.
+  - **Google Fonts** - To import the fonts used on the website.
+  - **ZMDI** - For the iconography on the website.
+  - **Canva** - Used to create wireframes, logos and icons.
+  - **Favicon.io** - To create favicon.
+  
   
   
   
