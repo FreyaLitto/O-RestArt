@@ -85,6 +85,9 @@
   It`s the last part of web-site with a contact form with inputs such as "Name and Surname", "E-mail Address", text field and a submittion button.  After submitting this form and sending over a message, the subscriber is redirected to Thank You page.
   
   
+  ![submit](submit.PNG) ![thanks](thanks.PNG)
+  
+  
   
   
   
