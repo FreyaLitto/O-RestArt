@@ -20,8 +20,10 @@
   
  ## Features
   
-  **1. Favicon at the top of the title. 
+  **1. Favicon at the top of the title.** 
+  
  Small but nice touch of object (a goden bird in the circle), which is visible when we open the web-page. Identifies the open tab at the top of web-brouser. 
+ ![favicon](favicon.PNG)
   
   
   
