@@ -100,6 +100,16 @@
  - Creating Submittion and automatic redirection for the owner side.
   
   
+  ## Accessibility
+  
+I have been mindful during coding to ensure that the website is intuitive and easy to read, also nice and interesting to brows.  I have achieved this by:
+
+- Using semantic HTML.
+- Using descriptive alt attributes on images on the site.
+- Ensuring that there is a sufficient colour contrast throughout the site.
+- Providing shortcuts and additional detail, so the user will be easily navigated.
+  
+  
   
   
   
