@@ -182,6 +182,13 @@ The following issues were raised during my mid project meeting with my mentor:
   1. There were a few unpared tags, like <div> wchich I had to delete.
    2. In the footer there was additional empty <i> tag.
    3. Padding was provided in two different mesurements - pixels and %. That was corrected.
+   
+   
+   #Unfixed Bugs
+   
+   This project still might be corrected regarding better positioning, centralising, alighning elements etc. However I am planning to work on it and add new features  with time, when I`ll be gaining more knowlege and practice how to effectivly work with programming languages, tools, resources.
+   
+   
     
        
    
