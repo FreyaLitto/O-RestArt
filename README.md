@@ -72,7 +72,11 @@
   
   **2. Responsive Gallery**
   
-  Here you can see the gallery with paintings and descriptions of every item.  Pictures are projected in rows and columns.  On smaller devices the quantity of colums decreases from three on big displays, to two on medium and one for mobile phones. 
+  Here you can see the gallery with paintings and descriptions of every item.  Pictures are projected in rows and columns.  On smaller devices the quantity of colums decreases from three on big displays, to two on medium and one for mobile phones.
+  
+  ![three](three.PNG)
+  
+  
   
   
   
