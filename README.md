@@ -155,7 +155,7 @@ To clone the Bully-Book-Club repository:
 - Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
 
 
-  ##W3C Validator
+  ## W3C Validator
   
   The W3C validator was used to validate the HTML on all pages of the website. It was also used to validate CSS in the style.css file.
   
@@ -164,7 +164,7 @@ To clone the Bully-Book-Club repository:
 - CSS
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
 
-##Unfixed Bugs
+## Challenges 
   
   Testing was ongoing throughout the entire build. I utilised Chrome developer tools while building to pinpoint and troubleshoot any issues as I went along.
 
