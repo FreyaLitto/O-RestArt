@@ -46,6 +46,13 @@
   ![vertical nav](vertical.PNG)
   
   
+  **3. Home Page Carousel**
+  
+  Home paige contains picrure carousel, which allows the user to switch and list pictures using navigation bars or sliding them horizontally. 
+  
+  
+  
+  
   
   
   
