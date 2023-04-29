@@ -39,6 +39,12 @@
   
   - _Laptops, Monitors, larger devices_
   
+  ![Horizontal Nav](horizontal.PNG)
+  
+  - _Mobile Phones, small devices_
+  
+  
+  
   
   
   
