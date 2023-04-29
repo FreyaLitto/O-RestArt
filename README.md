@@ -3,4 +3,6 @@
   
 ![Title](assets/images/decor/multiple-device-mockup.png) 
   
+ The web-page is entirely created with HTML and CSS. It`s designed to be structured, visual, and intuitive, so the experience of using it is very simple and straigtforward.
+  
   
