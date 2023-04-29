@@ -5,4 +5,13 @@
   
  The web-page is entirely created with HTML and CSS. It`s designed to be structured, visual, and intuitive, so the experience of using it is very simple and straigtforward.
   
+  ## The Structure
+  
+ This Web page contains few main parts: 
+  - Home page
+  - Gallery
+  - About The Artist
+  - Contact
+  
+ 
   
