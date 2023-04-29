@@ -14,7 +14,7 @@
   - Contact
   
   You can defy the Home Page, which is the main and contains cover photo of one of the paintings, the other (Gallery, About The Artist and Contact) are created on the same black and golden background, which provides consistancy and refers to the same styling. 
-  There are only three main colors used in this design - Black, Whitesmoky and Golden (#e6cd7a) ![colours](colours.PNG), which provide contrast and visibility. Together with logo and golden elements, compose nice background to colourful pictures in the gallery. 
+  There are only three main colors used in this design - Black, Whitesmoky and Golden (#e6cd7a) ![colours](ReadMeImg/colours.PNG), which provide contrast and visibility. Together with logo and golden elements, compose nice background to colourful pictures in the gallery. 
   There are also two main fonts used: 
   - Alex and Brush
   - Monserrat
@@ -29,7 +29,7 @@
   
  Small but nice touch which shows the object (a goden bird in the circle), visible when we open the web-page. Identifies the open tab at the top of web-brouser and makes this page recognisable. 
   
- ![favicon](favicon.PNG)
+ ![favicon](ReadMeImg/favicon.PNG)
   
   ![golden-bird](assets/images/decor/logo-bird.png) 
   
@@ -41,25 +41,25 @@
   
   - _Laptops, Monitors, larger devices_
   
-  ![Horizontal Nav](horizontal.PNG)
+  ![Horizontal Nav](ReadMeImg/horizontal.PNG)
   
   - _Mobile Phones, small devices_
   
-  ![vertical nav](vertical.PNG)
+  ![vertical nav](ReadMeImg/vertical.PNG)
   
   
   **3. Home Page Carousel**
   
   Home paige contains picrure carousel, which allows the user to switch and list pictures using navigation bars or sliding them horizontally. 
   
-  ![ship](ships.PNG)       ![flowers](flowers.PNG)
+  ![ship](ReadMeImg/ships.PNG)       ![flowers](ReadMeImg/flowers.PNG)
   
   
   **4. Responsive Footer.**
   
   On every single page there is a responsive Footer, represented with icons. Icons are linked to social media where they redirect user when clicking on them.
   
-  ![footer](footer.PNG)
+  ![footer](Read/Me/Imgfooter.PNG)
   
   
   **_Gallery_**
@@ -68,13 +68,13 @@
   
   Gallery also contains additional links to Contact page and Facebook embeded in text. When you hover words "message" and "Facebook", you`ll be able to use these shortcuts for contacting with the artist. 
   
-  ![Welcome note](welcome_note.PNG)
+  ![Welcome note](ReadMeImg/welcome_note.PNG)
   
   **2. Responsive Gallery**
   
   Here you can see the gallery with paintings and descriptions of every item.  Pictures are projected in rows and columns.  On smaller devices the quantity of colums decreases from three on big displays, to two on medium and one for mobile phones.
   
-  ![three](three.PNG)
+  ![three](ReadMeImg/three.PNG)
   
   **_About the Artist_**
   
@@ -85,7 +85,7 @@
   It`s the last part of web-site with a contact form with inputs such as "Name and Surname", "E-mail Address", text field and a submittion button.  After submitting this form and sending over a message, the subscriber is redirected to Thank You page.
   
   
-  ![submit](submit.PNG) ![thanks](thanks.PNG)
+  ![submit](ReadMeImg/submit.PNG) ![thanks](ReadMeImg/thanks.PNG)
   
   ##Fututure Implementations
  
@@ -184,7 +184,7 @@ The following issues were raised during my mid project meeting with my mentor:
    3. Padding was provided in two different mesurements - pixels and %. That was corrected.
     
        
-    #Testing
+   
     
     
     
