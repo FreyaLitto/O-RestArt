@@ -1,5 +1,6 @@
 <h1>O-RestArt Gallery Website</h1>
-<p> O-RestArt Gallery website is designed to be responsive website allowing visitors to view on a range of devices. It allows visitors to see the art gallery of a talented artist Oresta Kinash, who creates beautiful oil and acrylic paintings.
+ O-RestArt Gallery website is virtual art gallery. It allows visitors to see beautiful oil and acrylic paintings created by talented artist Oresta Kinash on various devices - big screens and monitors, laptops, tablets and personal cell phones. The name of the artist -Oresta is also embeded in the title and logo of this web page.  
+The main goal of it is to present art in classical, sophisticated way, mainly to catch the eye on every single painting and provide positive esthetic effect. 
   
 ![Title](assets/images/decor/multiple-device-mockup.png) 
   
@@ -153,8 +154,17 @@ To clone the Bully-Book-Club repository:
  -Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
 - Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
 
+
+  ##W3C Validator
   
-  #Testing
+  The W3C validator was used to validate the HTML on all pages of the website. It was also used to validate CSS in the style.css file.
+  
+  - HTML
+  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
+- CSS
+  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
+
+##Unfixed Bugs
   
   Testing was ongoing throughout the entire build. I utilised Chrome developer tools while building to pinpoint and troubleshoot any issues as I went along.
 
@@ -166,16 +176,9 @@ The following issues were raised during my mid project meeting with my mentor:
  
 3. I managed to create nice flex gallery, but I also wanted to create a modal to each of the picture, which should be opened with a button. Modal was created, but it worked only for one picture, as the code was based on ID selector and some Java Script code. As there were too many pictures in the Gallery, it will be too time consuming create individual Modal box to each picture. I fond out that Java script For loop could solve this task, which I`ll be learning in the future. 
 
-  4. During the building the site here and there I had to correct margins, paddings, alignes, to create estetically nice front. 
+  4. During the building the site here and there I had to correct margins, paddings, alignes, to create esthetically nice front. 
   
-  ##W3C Validator
-  
-  The W3C validator was used to validate the HTML on all pages of the website. It was also used to validate CSS in the style.css file.
-  
-  - HTML
-  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
-- CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
+   5. This project still might be corrected regarding better positioning, centralising, alighning elements etc. However I am planning to work on it and add new features  with time, when I`ll be gaining more knowlege and practice how to effectivly work with programming languages, tools, resources.
   
   #Solved Bugs
   
@@ -183,10 +186,25 @@ The following issues were raised during my mid project meeting with my mentor:
    2. In the footer there was additional empty <i> tag.
    3. Padding was provided in two different mesurements - pixels and %. That was corrected.
    
-   
-   #Unfixed Bugs
-   
-   This project still might be corrected regarding better positioning, centralising, alighning elements etc. However I am planning to work on it and add new features  with time, when I`ll be gaining more knowlege and practice how to effectivly work with programming languages, tools, resources.
+  
+  ##Testing
+  
+ - Testing Navbar for it`s full responsive navigation, is it linked with other pages, how hovering works, also media queries on biller screens and small one. 
+  
+ - Resting Carousel,  it`s navigation, proportions of pictures.
+  
+ - Gallery presentation,  wrapping of cards on different sizes of screen, margins and paddings between cards on the page and inside.
+  
+  - Testing footbar icons and links, how they redirect the user to correct sites, hovering and proportions.
+  
+  - Submission form with paying attention if formats (for ex. emails) are correctly represented, how submission button redirects the user to Thank You page.
+  
+ - I tested the web-page with Lighthouse  within the Chrome Developer Tools fore performance, accessibility, best practices and SEO of the website.
+  
+  
+  
+  
+  
    
    
     
