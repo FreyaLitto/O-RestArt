@@ -136,6 +136,7 @@ I have been mindful during coding to ensure that the website is intuitive and ea
   ## Local Development
    
   **How to Fork**
+  
 To fork the Bully-Book-Club repository:
 
 - Log in (or sign up) to Github.
@@ -143,6 +144,7 @@ To fork the Bully-Book-Club repository:
 - Click the Fork button in the top right corner.
   
 **How to Clone**
+  
 To clone the Bully-Book-Club repository:
 
 - Log in (or sign up) to GitHub.
@@ -152,6 +154,21 @@ To clone the Bully-Book-Club repository:
 - Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
 
   
+  #Testing
+  
+  Testing was ongoing throughout the entire build. I utilised Chrome developer tools while building to pinpoint and troubleshoot any issues as I went along.
+
+The following issues were raised during my mid project meeting with my mentor:
+
+1. I was struggling with building Naviagation Menu, which I wanted to be flexible for small devices and stretched for bigger devices. Tried to create "hamburger menu" using only HTML and CSS.
+  
+2.  There were many rewritings and corrections during Carousel creation, syncronising and resizing pictures together with slider and pointers. 
+ 
+3. I managed to create nice flex gallery, but I also wanted to create a modal to each of the picture, which should be opened with a button. Modal was created, but it worked only for one picture, as the code was based on ID selector and some Java Script code. As there were too many pictures in the Gallery, it will be too time consuming create individual Modal box to each picture. I fond out that Java script For loop could solve this task, which I`ll be learning in the future. 
+
+  4. During the building the site here and there I had to correct margins, paddings, alignes, to create estetically nice front. 
+  
+
   
   
   
