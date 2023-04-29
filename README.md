@@ -66,7 +66,7 @@
   
   Gallery also contains additional links to Contact page and Facebook embeded in text. When you hover words "message" and "Facebook", you`ll be able to use these shortcats for contacting with the artist. 
   
-  ![Welcome note](welcome-note.PNG)
+  ![Welcome note](welcome_note.PNG)
   
   
   
