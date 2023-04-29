@@ -50,6 +50,10 @@
   
   Home paige contains picrure carousel, which allows the user to switch and list pictures using navigation bars or sliding them horizontally. 
   
+  ![ship](ships.PNG)       ![flowers](flowers.PNG)
+  
+  
+  
   
   
   
