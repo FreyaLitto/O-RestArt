@@ -15,15 +15,25 @@
   
   You can defy the Home Page, which is the main and contains cover photo of one of the paintings, the other (Gallery, About The Artist and Contact) are created on the same black and golden background, which provides consistancy and refers to the same styling. 
   There are only three main colors used in this design - Black, Whitesmoky and Golden (#e6cd7a) ![colours](colours.PNG), which provide contrast and visibility. Together with logo and golden elements, compose nice background to colourful pictures in the gallery. 
+  There are also two main fonts used: 
+  - Alex and Brush
+  - Monserrat
   
  Let`s have a closer look at features.
   
  ## Features
   
-  **1. Favicon at the top of the title.** 
+  **1. Favicon on the top of the Web Browser.** 
   
- Small but nice touch of object (a goden bird in the circle), which is visible when we open the web-page. Identifies the open tab at the top of web-brouser. 
+ Small but nice touch which shows the object (a goden bird in the circle), visible when we open the web-page. Identifies the open tab at the top of web-brouser and makes this page recognisable. 
+  
  ![favicon](favicon.PNG)
+  
+  ![golden-bird](assets/images/decor/logo-bird.png) 
+  
+  
+  
+  **
   
   
   
