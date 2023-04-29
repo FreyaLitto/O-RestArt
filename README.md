@@ -205,11 +205,21 @@ The following issues were raised during my mid project meeting with my mentor:
  ![test1](ReadMeImg/test1.PNG)
  
  
- #Credits
+ # Credits
  
  - [3WSchool](https://www.w3schools.com/)
  
- - 
+ - [Mockup](https://techsini.com/multi-mockup/index.php)
+ 
+ - [Canva](https://www.canva.com/)
+ 
+ - [Responsive gallery](https://www.w3schools.com/css/tryit.asp?filename=trycss3_flexbox_image_gallery)
+ 
+ - [Flexbox tutorial](https://www.w3schools.com/css/tryit.asp?filename=trycss3_flexbox_responsive)
+ 
+ - [YouTube](https://www.youtube.com/@IonaFrisbee)
+ 
+ 
  
  
   
