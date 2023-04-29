@@ -168,6 +168,29 @@ The following issues were raised during my mid project meeting with my mentor:
 
   4. During the building the site here and there I had to correct margins, paddings, alignes, to create estetically nice front. 
   
+  ##W3C Validator
+  
+  The W3C validator was used to validate the HTML on all pages of the website. It was also used to validate CSS in the style.css file.
+  
+  - HTML
+  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
+- CSS
+  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
+  
+  #Solved Bugs
+  
+  1. There were a few unpared tags, like <div> wchich I had to delete.
+   2. In the footer there was additional empty <i> tag.
+   3. Padding was provided in two different mesurements - pixels and %. That was corrected.
+    
+       
+    #Testing
+    
+    
+    
+    
+    
+  
 
   
   
