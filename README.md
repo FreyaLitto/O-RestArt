@@ -23,6 +23,8 @@
   
  ## Features
   
+  ###Home Page
+  
   **1. Favicon on the top of the Web Browser** 
   
  Small but nice touch which shows the object (a goden bird in the circle), visible when we open the web-page. Identifies the open tab at the top of web-brouser and makes this page recognisable. 
@@ -56,6 +58,10 @@
   **4. Responsive Footer.**
   
   On every single page there is a responsive Footer, represented with icons. Icons are linked to social media where they redirect user when clicking on them.
+  
+  ![footer](footer.png)
+  
+  
   
   
   
