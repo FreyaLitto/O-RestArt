@@ -53,6 +53,14 @@
   ![ship](ships.PNG)       ![flowers](flowers.PNG)
   
   
+  **4. Responsive Footer.**
+  
+  On every single page there is a responsive Footer, represented with icons. Icons are linked to social media where they redirect user when clicking on them.
+  
+  
+  
+  
+  
   
   
   
