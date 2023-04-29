@@ -14,7 +14,15 @@
   - Contact
   
   You can defy the Home Page, which is the main and contains cover photo of one of the paintings, the other (Gallery, About The Artist and Contact) are created on the same black and golden background, which provides consistancy and refers to the same styling. 
-  There are only three main colors used in this design - Black, Whitesmoky and Golden (#e6cd7a) ![colours](colours.PNG), which provide contrast and visibility. Together with logo and golden elements, provide nice background to colourful pictures in the gallery. 
+  There are only three main colors used in this design - Black, Whitesmoky and Golden (#e6cd7a) ![colours](colours.PNG), which provide contrast and visibility. Together with logo and golden elements, compose nice background to colourful pictures in the gallery. 
+  
+ Let`s have a closer look at features.
+  
+ ## Features
+  
+  1. Favicon at the top of the title. 
+  
+  
   
   
  
